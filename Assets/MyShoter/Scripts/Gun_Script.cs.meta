@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 793e8882aeb18b04393228d4506400b1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bullet: {fileID: 7440194326968322871, guid: 1168f578695dca447b0fe53c5be778ff, type: 3}
+  - mine: {fileID: 4371127343499941483, guid: f34c4c86b2738f64695461930e5328da, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
