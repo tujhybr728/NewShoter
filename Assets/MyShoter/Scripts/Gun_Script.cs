@@ -7,6 +7,7 @@ public class Gun_Script : MonoBehaviour
     [SerializeField] GameObject bullet;
     [SerializeField] GameObject mine;
     [SerializeField] GameObject _gunpoint_player;
+    private GameObject _mine;
     private GameObject _buletgameobject = new GameObject();
     private Transform _gunpoint;
     private int _damage;
@@ -30,8 +31,9 @@ public class Gun_Script : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0)==true && _countBullet!=0)
         {
-            _buletgameobject = Instantiate(bullet, _gunpoint.transform.position, _player.transform.rotation);
-            _buletgameobject.GetComponent<Bullet_Script>()._damage = _damage;
+            Instantiate(bullet, _gunpoint.transform.position, _player.transform.rotation).GetComponent<Bullet_Script>()._damage = _damage;
+            //_buletgameobject = Instantiate(bullet, _gunpoint.transform.position, _player.transform.rotation);
+            //_buletgameobject.GetComponent<Bullet_Script>()._damage = _damage;
             _countBullet--;
         }
         if (Input.GetKeyDown(KeyCode.R))
@@ -40,7 +42,8 @@ public class Gun_Script : MonoBehaviour
         }
         if (Input.GetMouseButtonDown(1) == true && _countMine !=0)
         {
-            Instantiate(mine, _player.transform.position, Quaternion.identity);
+            _mine = Instantiate(mine, new Vector3(_player.transform.position.x,mine.transform.position.y,_player.transform.position.z), Quaternion.identity);
+            _mine.GetComponent<Mine_controller>().damage = gameObject.GetComponentInParent<Caracter>().damage*5;
             _countMine--;
         }
     }

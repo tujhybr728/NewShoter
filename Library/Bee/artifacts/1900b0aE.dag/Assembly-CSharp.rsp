@@ -366,6 +366,8 @@
 "Assets/MyShoter/Scripts/Caracter.cs"
 "Assets/MyShoter/Scripts/Enemy_Carracter.cs"
 "Assets/MyShoter/Scripts/Gun_Script.cs"
+"Assets/MyShoter/Scripts/MineExploed.cs"
+"Assets/MyShoter/Scripts/Mine_controller.cs"
 "Assets/MyShoter/Scripts/Player_Caracter.cs"
 "Assets/MyShoter/Scripts/Spawn_Controle_time.cs"
 "Assets/MyShoter/Scripts/Spawn_Controller.cs"

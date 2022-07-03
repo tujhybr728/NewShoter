@@ -23,8 +23,8 @@ public class Bullet_Script : MonoBehaviour
         if (_Caracter.GetComponent<Caracter>())
         {
             _Caracter.GetComponent<Caracter>().Damage(_damage);
-            Destroy(gameObject);
         }
+        Destroy(gameObject);
     }
 
     // Update is called once per frame

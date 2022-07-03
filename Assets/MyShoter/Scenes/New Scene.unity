@@ -416,6 +416,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3112888024101871109, guid: 8eb8d693fcabd74459fef55258d399d8, type: 3}
+      propertyPath: _countMine
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8235097378966779138, guid: 8eb8d693fcabd74459fef55258d399d8, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -575,6 +579,10 @@ PrefabInstance:
       propertyPath: _boss
       value: 
       objectReference: {fileID: 8235097378966779139, guid: 77b9d11fa9615f64985b01994a1ccfe6, type: 3}
+    - target: {fileID: 8233332633411029036, guid: eb1f3b6c3a5304c42bbf4cd82e41ee6c, type: 3}
+      propertyPath: count
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 8233332633411029036, guid: eb1f3b6c3a5304c42bbf4cd82e41ee6c, type: 3}
       propertyPath: _spawnControlTime
       value: 

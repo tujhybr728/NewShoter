@@ -10,9 +10,9 @@ public class Spawn_Controller : MonoBehaviour
     private Vector3 point = new Vector3(-100,-100,-100);
     [SerializeField] GameObject _spawnControlTime;
     [SerializeField] GameObject _boss;
-    public int count;
+    public int count, healt_max;
     public bool flag = false;
-    private bool flagBoss = false;
+    //private bool flagBoss = false;
     
     private void Awake()
     {
@@ -22,6 +22,7 @@ public class Spawn_Controller : MonoBehaviour
            _listEnemy.Add(Instantiate(_enemy,point,Quaternion.identity));
            _listEnemy[i].SetActive(false);
         }
+        healt_max = _listEnemy[0].GetComponent<Caracter>().healt;
     }
     // Start is called before the first frame update
     void Start()
@@ -56,6 +57,8 @@ public class Spawn_Controller : MonoBehaviour
             if (_listEnemy[i].activeSelf == false && count>= 0)
             {
                 _listEnemy[i].transform.position = _listSpawnEnemy[Random.Range(0, _listSpawnEnemy.Length)].transform.position;
+                _listEnemy[i].GetComponent<Caracter>().healt = healt_max;
+                //_listEnemy[i].transform.position = _listSpawnEnemy[i].transform.position;
                 _listEnemy[i].SetActive(true);
                 count--;
             }

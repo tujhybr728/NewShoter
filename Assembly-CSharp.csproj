@@ -54,16 +54,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\MyShoter\Scripts\Player_Caracter.cs" />
+    <Compile Include="Assets\MyShoter\Scripts\Enemy_Carracter.cs" />
     <Compile Include="Assets\MyShoter\Scripts\Caracter.cs" />
+    <Compile Include="Assets\MyShoter\Scripts\Spawn_Controle_time.cs" />
     <Compile Include="Assets\MyShoter\Scripts\Spawn_Controller.cs" />
+    <Compile Include="Assets\MyShoter\Scripts\Boss_Caracter.cs" />
+    <Compile Include="Assets\MyShoter\Scripts\timer_boss_relod.cs" />
+    <Compile Include="Assets\MyShoter\Scripts\timer_boss_atake.cs" />
     <Compile Include="Assets\MyShoter\Scripts\Bullet_Script.cs" />
     <Compile Include="Assets\MyShoter\Scripts\Gun_Script.cs" />
-    <Compile Include="Assets\MyShoter\Scripts\Enemy_Carracter.cs" />
-    <Compile Include="Assets\MyShoter\Scripts\Spawn_Controle_time.cs" />
-    <Compile Include="Assets\MyShoter\Scripts\Boss_Caracter.cs" />
     <Compile Include="Assets\MyShoter\Scripts\Boss_Gun.cs" />
-    <Compile Include="Assets\MyShoter\Scripts\timer_boss_atake.cs" />
-    <Compile Include="Assets\MyShoter\Scripts\timer_boss_relod.cs" />
+    <Compile Include="Assets\MyShoter\Scripts\Mine_controller.cs" />
+    <Compile Include="Assets\MyShoter\Scripts\MineExploed.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
