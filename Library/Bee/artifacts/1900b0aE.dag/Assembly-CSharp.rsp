@@ -363,6 +363,7 @@
 "Assets/MyShoter/Scripts/Boss_Caracter.cs"
 "Assets/MyShoter/Scripts/Boss_Gun.cs"
 "Assets/MyShoter/Scripts/Bullet_Script.cs"
+"Assets/MyShoter/Scripts/Camera.cs"
 "Assets/MyShoter/Scripts/Caracter.cs"
 "Assets/MyShoter/Scripts/Enemy_Carracter.cs"
 "Assets/MyShoter/Scripts/Gun_Script.cs"

@@ -62,10 +62,11 @@
     <Compile Include="Assets\MyShoter\Scripts\timer_boss_relod.cs" />
     <Compile Include="Assets\MyShoter\Scripts\timer_boss_atake.cs" />
     <Compile Include="Assets\MyShoter\Scripts\Bullet_Script.cs" />
-    <Compile Include="Assets\MyShoter\Scripts\Gun_Script.cs" />
-    <Compile Include="Assets\MyShoter\Scripts\Boss_Gun.cs" />
-    <Compile Include="Assets\MyShoter\Scripts\Mine_controller.cs" />
     <Compile Include="Assets\MyShoter\Scripts\MineExploed.cs" />
+    <Compile Include="Assets\MyShoter\Scripts\Gun_Script.cs" />
+    <Compile Include="Assets\MyShoter\Scripts\Mine_controller.cs" />
+    <Compile Include="Assets\MyShoter\Scripts\Boss_Gun.cs" />
+    <Compile Include="Assets\MyShoter\Scripts\Camera.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
